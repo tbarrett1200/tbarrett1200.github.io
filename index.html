@@ -11,167 +11,159 @@
     body {
         padding: 0 20px;
     }
-    .page {
-        page-break-after: always;
-    }
     </style>
 </head>
 <body>
-    <div class="page">
-        <header>
-            <span>
-                <h1>Thomas Barrett</h1>
-                <h3>Software Engineer</h3>
-            </span>
-            <div class="contact-container">
-            <div class="contact-container-item">
-                    <i class="far fa-envelope"></i>
-                    <span>tbarrett@caltech.edu</span>
+    <header>
+        <span>
+            <h1>Thomas Barrett</h1>
+            <h3>Software Engineer</h3>
+        </span>
+        <div class="contact-container">
+        <div class="contact-container-item">
+                <i class="far fa-envelope"></i>
+                <span>tbarrett@caltech.edu</span>
+        </div>
+        <div class="contact-container-item">
+                <i class="far fa-user"></i>
+                <span>https://thomasbarrett.io</span>
+        </div>
+        <div class="contact-container-item">
+                <i class="fab fa-github"></i>
+                <span>https://github.com/thomasbarrett</span>
+        </div>
+        </div>
+    </header>
+    <section>
+        <h2>Education</h2>
+        <div class="split-container">
+            <h3>California Institute of Technology</h3>
+            <span>Fall 2018 - Present</span>
+        </div>
+        <div class="pillbox-container">
+            <span>Sophomore</span>
+            <span>Computer Science</span>
+            <span>3.7 GPA</span>
+        </div>
+        <p><b>Relevent Coursework:</b></p>
+        <ul>
+            <li>Calculus of One and Several Variables and Linear Algebra</li>
+            <li>Introduction to Programming Methods (Data Structures)</li>
+            <li>Computer Language Lab (C)</li>
+            <li>Decidability and Tractability</li>
+            <li>Information and Logic (Boolean Algebra)</li>
+            <li>Introduction to Computing Systems</li>
+            <li>Learning Systems <i>(Fall 2019)</i></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Experience</h2>
+        <div class="timeline-event">
+            <div class="split-container" style="margin: 10px 0;">
+                <span><b>PVH Corporation:</b> Web Development Intern</span>
+                <i>Spring 2018</i>
             </div>
-            <div class="contact-container-item">
-                    <i class="far fa-user"></i>
-                    <span>https://thomasbarrett.io</span>
-            </div>
-            <div class="contact-container-item">
-                    <i class="fab fa-github"></i>
-                    <span>https://github.com/thomasbarrett</span>
-            </div>
-            </div>
-        </header>
-        <section>
-            <h2>Education</h2>
-            <div class="split-container">
-                <h3>California Institute of Technology</h3>
-                <span>Fall 2018 - Present</span>
-            </div>
-            <div class="pillbox-container">
-                <span>Sophomore</span>
-                <span>Computer Science</span>
-                <span>3.7 GPA</span>
-            </div>
-            <p><b>Relevent Coursework:</b></p>
             <ul>
-                <li>Calculus of One and Several Variables and Linear Algebra</li>
-                <li>Introduction to Programming Methods (Data Structures)</li>
-                <li>Computer Language Lab (C)</li>
-                <li>Decidability and Tractability</li>
-                <li>Information and Logic (Boolean Algebra)</li>
-                <li>Introduction to Computing Systems</li>
-                <li>Learning Systems <i>(Fall 2019)</i></li>
+                <li>Built front-end content for Izod, Van Heusen, and Calvin Klein brands.</li>
+                <li>Collaborated with graphic designers and other front end developers.</li>
+                <li>Learned to work in large team setting.</li>
             </ul>
-        </section>
+        </div>
+        <div class="timeline-event">
+            <div class="split-container" style="margin: 10px 0;">
+                <span><b>Mathnasium (Basking Ridge NJ): </b>Software Engineering Intern</span>
+                <i>Summer 2018</i>
+            </div>
+            <ul>
+                <li>Built business specific web applications.</li>
+                <li>Developed remote compilation service allowing students to learn to code on their browser.</li>
+                <li>Worked on a javascript web token based authentication system<./li>
+            </ul>
+        </div>
+        <div class="timeline-event">
+            <div class="split-container" style="margin: 10px 0;">
+                <span><b>Caltech HEP Laboratory: </b>Undergraduate Researcher</span>
+                <i>Summer 2019</i>
+            </div>
+            <ul>
+                <li>Collaborated with the CMS team at the Large Hadron Collider (LHC).</li>
+                <li>Implemented variations of graph neural networks to track particles in collider.</li>
+                <li>Resarched ways to improve model accuracy using physics domain knowlege.</li>
+                <li>Created command line tool to streamline data processing pipeline.</li>
+            </ul>
+        </div>
+    </section>
 
-        <section>
-            <h2>Experience</h2>
+    <section>
+        <h2>Skills</h2>
+        <div class="pillbox-container">
+            <span>C</span>
+            <span>C++</span>
+            <span>Cocoa</span>
+            <span>CSS</span>
+            <span>Express</span>
+            <span>Firebase</span>
+            <span>Git</span>
+            <span>HTML</span>
+            <span>Java</span>
+            <span>Javascript</span>
+            <span>LLVM</span>
+            <span>MongoDB</span>
+            <span>Node</span>
+            <span>Numpy</span>
+            <span>OpenCL</span>
+            <span>OpenGL</span>
+            <span>ObjectPascal</span>
+            <span>Python</span>
+            <span>React</span>
+            <span>Swift</span>
+            <span>Tensorflow</span>
+            <span>Vue</span>
+            <span>x86 Assembly</span>
+        </div>
+    </section>
+    <section>
+        <h2>Projects</h2>
+        <div class="timeline-event">
+            <div class="split-container" style="margin: 10px 0;">
+                <span><b>DeliDash:</b> mobile app for ordering sandwiches</span>
+                <i>Spring 2017</i>
+            </div>
+            <p>The <i>DeliDash</i> iOS mobile app streamlined the deli preordering system at my school. Utilizing a native Swift and CocoaTouch frontend and a Firebase backend+database I allowed students at my school to order a custom sandwich with the click of a button.</p>
+        </div>
+        <div class="timeline-event">
+            <div class="split-container" style="margin: 10px 0;">
+                <span><b>Bulat:</b> programming language</span>
+                <i>Winter 2018</i>
+            </div>
+            <p>I created the Bulat programming language in C++ using the LLVM compiler framework with the goal of learning about how languages are designed and implemented. Bulat is a procedural programming language with a statically checked type system. It has many of the necessary components of a general purpose programming language including control flow, functions, and complex data types such as arrays</p>
+        </div>    
+        <div class="timeline-event">
+            <div class="split-container" style="margin: 10px 0;">
+                <span><b>GraphColor:</b> greedy k-coloring algorithm implementation</span>
+                <i>Winter 2019</i>
+            </div>
+        </div>
             <div class="timeline-event">
-                <div class="split-container" style="margin: 10px 0;">
-                    <span><b>PVH Corporation:</b> Web Development Intern</span>
-                    <i>Spring 2018</i>
-                </div>
-                <ul>
-                    <li>Built front-end content for Izod, Van Heusen, and Calvin Klein brands.</li>
-                    <li>Collaborated with graphic designers and other front end developers.</li>
-                    <li>Learned to work in large team setting.</li>
-                </ul>
+            <div class="split-container" style="margin: 10px 0;">
+                <span><b>8086 Dissassembler</b></span>
+                <i>Spring 2019</i>
             </div>
-            <div class="timeline-event">
-                <div class="split-container" style="margin: 10px 0;">
-                    <span><b>Mathnasium (Basking Ridge NJ): </b>Software Engineering Intern</span>
-                    <i>Summer 2018</i>
-                </div>
-                <ul>
-                    <li>Built business specific web applications.</li>
-                    <li>Developed remote compilation service allowing students to learn to code on their browser.</li>
-                    <li>Worked on a javascript web token based authentication system<./li>
-                </ul>
+            <p>Decodes binary instructions for the 8086 processor and outputs human readable assembler instructions in gnu assembler syntax.</p>
+        </div>
+        <div class="timeline-event">
+            <div class="split-container" style="margin: 10px 0;">
+                <span><b>DinoChat:</b> whimsical instant messaging app</span>
+                <i>Spring 2019</i>
             </div>
-            <div class="timeline-event">
-                <div class="split-container" style="margin: 10px 0;">
-                    <span><b>Caltech HEP Laboratory: </b>Undergraduate Researcher</span>
-                    <i>Summer 2019</i>
-                </div>
-                <ul>
-                    <li>Collaborated with the CMS team at the Large Hadron Collider (LHC).</li>
-                    <li>Implemented variations of graph neural networks to track particles in collider.</li>
-                    <li>Resarched ways to improve model accuracy using physics domain knowlege.</li>
-                    <li>Created command line tool to streamline data processing pipeline.</li>
-                </ul>
+        </div>
+        <div class="timeline-event">
+            <div class="split-container" style="margin: 10px 0;">
+                <span><b>RideBoard:</b> coordinating rides for large groups</span>
+                <i>Summer 2019</i>
             </div>
-        </section>
-
-        <section>
-            <h2>Skills</h2>
-            <div class="pillbox-container">
-                <span>C</span>
-                <span>C++</span>
-                <span>Cocoa</span>
-                <span>CSS</span>
-                <span>Express</span>
-                <span>Firebase</span>
-                <span>Git</span>
-                <span>HTML</span>
-                <span>Java</span>
-                <span>Javascript</span>
-                <span>LLVM</span>
-                <span>MongoDB</span>
-                <span>Node</span>
-                <span>Numpy</span>
-                <span>OpenCL</span>
-                <span>OpenGL</span>
-                <span>ObjectPascal</span>
-                <span>Python</span>
-                <span>React</span>
-                <span>Swift</span>
-                <span>Tensorflow</span>
-                <span>Vue</span>
-                <span>x86 Assembly</span>
-            </div>
-        </section>
-    </div>
-    <div class="page">
-        <section>
-            <h2>Projects</h2>
-            <div class="timeline-event">
-                <div class="split-container" style="margin: 10px 0;">
-                    <span><b>DeliDash:</b> mobile app for ordering sandwiches</span>
-                    <i>Spring 2017</i>
-                </div>
-                <p>The <i>DeliDash</i> iOS mobile app streamlined the deli preordering system at my school. Utilizing a native Swift and CocoaTouch frontend and a Firebase backend+database I allowed students at my school to order a custom sandwich with the click of a button.</p>
-            </div>
-            <div class="timeline-event">
-                <div class="split-container" style="margin: 10px 0;">
-                    <span><b>Bulat:</b> programming language</span>
-                    <i>Winter 2018</i>
-                </div>
-                <p>I created the Bulat programming language in C++ using the LLVM compiler framework with the goal of learning about how languages are designed and implemented. Bulat is a procedural programming language with a statically checked type system. It has many of the necessary components of a general purpose programming language including control flow, functions, and complex data types such as arrays</p>
-            </div>    
-            <div class="timeline-event">
-                <div class="split-container" style="margin: 10px 0;">
-                    <span><b>GraphColor:</b> greedy k-coloring algorithm implementation</span>
-                    <i>Winter 2019</i>
-                </div>
-            </div>
-             <div class="timeline-event">
-                <div class="split-container" style="margin: 10px 0;">
-                    <span><b>8086 Dissassembler</b></span>
-                    <i>Spring 2019</i>
-                </div>
-                <p>Decodes binary instructions for the 8086 processor and outputs human readable assembler instructions in gnu assembler syntax.</p>
-            </div>
-            <div class="timeline-event">
-                <div class="split-container" style="margin: 10px 0;">
-                    <span><b>DinoChat:</b> whimsical instant messaging app</span>
-                    <i>Spring 2019</i>
-                </div>
-            </div>
-            <div class="timeline-event">
-                <div class="split-container" style="margin: 10px 0;">
-                    <span><b>RideBoard:</b> coordinating rides for large groups</span>
-                    <i>Summer 2019</i>
-                </div>
-            </div>
-        </section>
-    </div>
-
+        </div>
+    </section>
 </body>
 </html>
