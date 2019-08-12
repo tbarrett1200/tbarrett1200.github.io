@@ -61,14 +61,14 @@ li {
     display: inline-block;
     border: 1px solid black;
     margin: 3px;
-    padding: 2px 5px;
+    padding: 2px 8px;
     background: #eeeeee;
     border-radius: 1em;
 }
 
 .timeline-event {
     margin: 10px 0;
-  
+
 }
 
 ul, .timeline-event p {
